@@ -13,4 +13,4 @@ fi
 TAG=$1
 
 cd ..
-docker build --rm -t "chariot9/db/db-news:${TAG}" -f dockerfiles/Dockerfile-news .
+docker build --rm -t "db-news:${TAG}" -f dockerfiles/Dockerfile-news .

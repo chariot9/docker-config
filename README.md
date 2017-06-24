@@ -7,6 +7,12 @@ If there are any problems, please feel free to contact to me or create new pull 
 ## Check out sources
 * git clone git@github.com:chariot9/shadow-docker.git
 ## Compile and run API
-Execute: /bin/build.sh 
+Build all images:
+* Execute: /bin/build.sh 
+Push to repository:
+* docker tag db-news:database chariot9/db-news:database
+* docker push chariot9/db-news:database
+Start containers:
+* docker-compose up -d
 ## License
 Created by Trung, Yokohama Japan 2017 

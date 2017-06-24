@@ -13,4 +13,4 @@ fi
 TAG=$1
 
 cd ..
-docker build --rm -t "chariot9/db/db-company:${TAG}" -f dockerfiles/Dockerfile-company .
+docker build --rm -t "db-company:${TAG}" -f dockerfiles/Dockerfile-company .
